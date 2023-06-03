@@ -1,23 +1,21 @@
 #Repositorios remotos
 *Se usan en sistemas de control de versiones descentralizado o distribuido.
 *En los repositorios remotos se evita tocar el repositorio directamente, y cada desarrollador realiza repositorios locales y cada desarrollador va tener una copia local de ese repositorio.
-\*Los repositorios remotos son comunmente usados en GitHub, GitLab.
+\*Los repositorios remotos son comunmente usados en GitHub o GitLab.
+
+#Agregar un repositorio remoto
 
 Para agregar un repositorio remoto nuevo, use el comando git remote add en el terminal, dentro del directorio donde está almacenado su repositorio.
 
-El comando git remote add toma dos argumentos:
+El comando `git remote add` toma dos argumentos:
 
-Un nombre remoto, por ejemplo, origin
-Una dirección URL remota, por ejemplo, https://github.com/OWNER/REPOSITORY.git
-Por ejemplo:
+*Un nombre remoto, por ejemplo, origin.
+*Una dirección URL remota.
 
-$ git remote add origin https://github.com/OWNER/REPOSITORY.git
+##Por ejemplo:
 
-# Set a new remote
+\*`git remote add origin https://github.com/OWNER/REPOSITORY.git`
 
-$ git remote -v
+\*Set a new remote
 
-# Verify new remote
-
-> origin https://github.com/OWNER/REPOSITORY.git (fetch)
-> origin https://github.com/OWNER/REPOSITORY.git (push)
+\*`git remote -v`
