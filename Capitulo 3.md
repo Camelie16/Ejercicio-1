@@ -1,0 +1,6 @@
+#Gestión de Ramas
+La idea principal subyacente del flujo de trabajo de ramas de función es que el desarrollo de una función debe llevarse a cabo en una rama especializada en lugar de en la rama main. Este aislamiento permite que varios desarrolladores trabajen en una función concreta sin modificar el contenido del código base principal. También implica que la rama main no contendrá en ningún caso código erróneo, lo que supone una gran ventaja para los entornos de integración continua.
+*El comando git branch tiene más funciones que las de crear y borrar ramas. Si lo lanzas sin parámetros, obtienes una lista de las ramas presentes en tu proyecto.
+*git branch -v: Para ver la última confirmación de cambios en cada rama.
+**--merged y --no-merged: sirve para averiguar el estado de las ramas, es filtrarlas y mostrar solo aquellas que han sido fusionadas (o que no lo han sido) con la rama actualmente activa.
+ git branch --merged:: Si deseas ver las ramas que han sido fusionadas con la rama activa, puedes lanzar el comando.
